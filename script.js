@@ -8,7 +8,7 @@ document.getElementById('submit-button').addEventListener('click', function() {
     if (inputText === "passcode") {
         outputText = `
             <p>Great Job!!</p>
-            <p>Let's see what's next <br><br><a href="home.html">Let's Go!!</a></p>
+            <p>Let's see what's next <br><br><a href="mid.html">Let's Go!!</a></p>
         `;
     } else {
         outputText = `
