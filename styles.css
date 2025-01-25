@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text */
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+.header-container {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+h1 {
+    color: #444; /* Slightly darker gray for the heading */
+}
+
+.qr-container {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center the QR boxes horizontally */
+    margin-top: 20px;
+}
+
+.qr-box {
+    background-color: #fff; /* White background for QR boxes */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px;
+    margin: 0 10px; /* Space between QR boxes */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.qr-box img {
+    width: 150px; /* Fixed size for QR codes */
+    height: 150px;
+}
+
+.qr-box p {
+    margin-top: 10px;
+    color: #666; /* Medium gray for the text below QR codes */
+}
+
+.input-section {
+    margin-top: 20px; /* Space above the input section */
+    text-align: center; /* Center the label and input */
+}
+
+.input-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the input and button */
+}
+
+label {
+    display: block; /* Make label a block element */
+    margin-bottom: 10px; /* Space below the label */
+    color: #444; /* Darker gray for the label text */
+}
+
+input[type="text"] {
+    padding: 10px; /* Padding inside the textbox */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    width: 200px; /* Width of the textbox */
+    margin-right: 10px; /* Space between textbox and button */
+}
+
+button {
+    padding: 10px 15px; /* Padding inside the button */
+    background-color: #444; /* Dark gray background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #333; /* Darker gray on hover */
+}
+
+.output-section {
+    margin-top: 20px; /* Space above the output section */
+    text-align: center; /* Center the output text */
+   
+}
+
+.output-section h2 {
+    margin-bottom: 10px; /* Space below the output header */
+}
+
+.output-section p {
+    font-size: 16px; /* Font size for the output text */
+    
+}
+span{
+    color: #f0f0f0;
+}
