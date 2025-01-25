@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monochromatic QR Code Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="sscript.js" defer></script> <!-- Link to the external JavaScript file -->
+</head>
+<body>
+    <div class="header-container">
+        <h1>You know the drill...follow all 3 pages and capture your flag</h1>
+    </div>
+    <p style="text-align: center;">NOTE: This flag will not be counted if you have not followed all 5 pages. <br>To be checked before final result.</p>
+    <div class="qr-container">
+        <div class="qr-box">
+            <img src="VRGD Insta.png" alt="Follow the official Instagram page of VRDG">
+            <p>Quick! <br>Follow</p>
+        </div>
+        <div class="qr-box">
+            <img src="Shikhar QR.png" alt="Follow the official Instagram page of our sponsor TECH SHIKHAR">
+            <p>Quick! <br>them</p>
+        </div>
+        <div class="qr-box">
+            <img src="GDG Insta.png" alt="Follow the official Instagram page of GDG">
+            <p>Quick!! <br>all.</p>
+        </div>
+    </div>
+    <div class="input-section">
+        <h3>Enter the <span>secret</span> code here:</h3>
+        <div class="input-container">
+            <input type="password" id="text-input" placeholder="Your flag is waiting..." />
+            <button id="submit-button" type="submit">Submit</button>
+        </div>
+    </div>
+    <!-- Output section to display results -->
+    <div class="output-section">
+        <h3 id="output-text">You can never get this code in one go.</h3>
+    </div>
+</body>
+</html>
